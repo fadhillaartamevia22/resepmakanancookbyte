@@ -2,14 +2,21 @@
 
 namespace App\Controllers;
 
-class controllerresepmakanan extends BaseController
+class ControllerResepMakanan extends BaseController
 {
-    public function about()
+    protected $about;
+
+    public function __construct()
     {
-        return view('about');
+        $this->about = 'about';
     }
 
-    public function ayamblue()
+    public function about()
+    {
+        return view($this->about);
+    }
+
+    public function ayamBlue()
     {
         return view('ayamblue');
     }
