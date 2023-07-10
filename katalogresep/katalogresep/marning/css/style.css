@@ -1,0 +1,196 @@
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Jost", sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.nav-space {
+  margin: 0 1.5%;
+}
+
+.navbrand {
+  font-family: "Playfair", serif;
+}
+.navbrand h1 a {
+  text-decoration: none;
+}
+
+.nav-contact a {
+  text-decoration: none;
+  font-color: rgb(208, 208, 10);
+}
+
+.btn {
+  background: black;
+  border-radius: 20px;
+  padding: 10px 40px;
+  color: rgb(208, 208, 10);
+}
+
+.col1 {
+  width: 5.3333333333%;
+  margin: 1.5%;
+}
+
+.col2 {
+  width: 13.6666666667%;
+  margin: 1.5%;
+}
+
+.col3 {
+  width: 22%;
+  margin: 1.5%;
+}
+
+.col4 {
+  width: 30.3333333333%;
+  margin: 1.5%;
+}
+
+.col5 {
+  width: 38.6666666667%;
+  margin: 1.5%;
+}
+
+.col6 {
+  width: 47%;
+  margin: 1.5%;
+}
+
+.col7 {
+  width: 55.3333333333%;
+  margin: 1.5%;
+}
+
+.col8 {
+  width: 63.6666666667%;
+  margin: 1.5%;
+}
+
+.col9 {
+  width: 72%;
+  margin: 1.5%;
+}
+
+.col10 {
+  width: 80.3333333333%;
+  margin: 1.5%;
+}
+
+.col11 {
+  width: 88.6666666667%;
+  margin: 1.5%;
+}
+
+.col12 {
+  width: 97%;
+  margin: 1.5%;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.img-radius {
+  border-radius: 20px;
+}
+
+.icon64 {
+  width: 64px;
+}
+
+.img-size {
+  width: 200px;
+}
+
+@media screen and (max-width: 480px) {
+  .col1 {
+    width: 100%;
+  }
+  .col2 {
+    width: 100%;
+  }
+  .col3 {
+    width: 100%;
+  }
+  .col4 {
+    width: 100%;
+  }
+  .col5 {
+    width: 100%;
+  }
+  .col6 {
+    width: 100%;
+  }
+  .col7 {
+    width: 100%;
+  }
+  .col8 {
+    width: 100%;
+  }
+  .col9 {
+    width: 100%;
+  }
+  .col10 {
+    width: 100%;
+  }
+  .col11 {
+    width: 100%;
+  }
+  .col12 {
+    width: 100%;
+  }
+}
+.spacer2 {
+  padding: 2% 0;
+}
+
+h3, h1 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.card-image {
+  display: flex;
+  align-items: center;
+}
+
+.card-image img {
+  flex: 0 0 auto;
+  max-width: 300px;
+  margin-right: 20px;
+}
+
+.card-image .content {
+  flex: 1 1 auto;
+  width: 100px;
+}
+
+.card-image h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-image p {
+  font-size: 16px;
+  color: #888;
+}/*# sourceMappingURL=style.css.map */

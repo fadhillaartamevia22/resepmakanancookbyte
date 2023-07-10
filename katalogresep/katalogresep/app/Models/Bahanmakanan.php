@@ -14,6 +14,7 @@ interface LangkahMakanInterface
     public function deleteLangkahMakanan($id);
 
 }
+
 class Bahanmakanan extends Models implements LangkahMakanInterface
 {
     protected $table = 'tb_resepmakanan';
@@ -40,8 +41,6 @@ class Bahanmakanan extends Models implements LangkahMakanInterface
         echo "Nama Bahan Makanan";
         
     }
-
-    abstract public function hitungTakaran();
 
     public function setCreatedAt($createdAt)
     {
@@ -78,18 +77,11 @@ class Bahanmakanan extends Models implements LangkahMakanInterface
     }
 }
 
-abstract class Shape {
-    protected String color;
+abstract class hitungTakaran {
+    protected $table = 'tb_resepmakanan';
+    protected $primaryKey = 'b_id';
+    protected $allowedFields = ['r_id', 'nama_bahan'];
 
-    public Shape(String color) {
-        this.color = color;
-    }
+    abstract public function hitungTakaran();
 
-    public abstract double getArea();
-
-    public abstract double getPerimeter();
-
-    public String getColor() {
-        return color;
-    }
 }

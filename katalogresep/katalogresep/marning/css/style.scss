@@ -1,0 +1,119 @@
+body{
+    //border: solid 1px;
+}.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Jost', sans-serif;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    //border: solid 2px;
+}
+.ai-center{
+    align-items: center;
+}
+.jc-center{
+    justify-content: center;
+}
+.jc-sb{
+    justify-content: space-between;
+}
+
+//navigation
+.nav-space{
+    margin: 0 1.5%;
+}
+.navbrand{
+    font-family: 'Playfair', serif;
+    h1{
+        a{
+            text-decoration: none;
+        }
+    }
+}
+.nav-contact{
+    a{
+        text-decoration: none;
+        font-color: rgb(208, 208, 10);
+    }
+}
+.btn{
+    background: black;
+    border-radius: 20px;
+    padding: 10px 40px;
+    color: rgb(208, 208, 10);
+}
+
+//making grid system
+
+@for $i from 1 through 12{
+    .col#{$i}{
+        width: (100%/(12/$i)) - 3%;
+        margin: 1.5%;
+        //border: solid 1px;
+    }
+}
+
+.img-responsive{
+    width: 100%;
+}
+.img-radius{
+    border-radius: 20px;
+}
+.icon64{
+    width: 64px;
+}
+.img-size{
+    width: 200px;
+}
+
+@media screen and (max-width:480px){
+    @for $i from 1 through 12{
+        .col#{$i}{
+            width: (100%);
+        }
+    }
+}
+
+//spacer
+.spacer2{
+    padding: 2% 0;
+}
+h3,h1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+//ayam blue
+
+.card-image {
+    display: flex;
+    align-items: center;
+  }
+
+  
+  .card-image img {
+    flex: 0 0 auto;
+    max-width: 300px;
+    margin-right: 20px;
+  }
+  
+  .card-image .content {
+    flex: 1 1 auto;
+    width: 100px;
+  }
+  
+  .card-image h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card-image p {
+    font-size: 16px;
+    color: #888;
+    
+  }

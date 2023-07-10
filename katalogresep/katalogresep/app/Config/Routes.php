@@ -32,6 +32,9 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 $routes->get('about', 'controllerresepmakanan::about'); /*about nama url, controller nama class, about function ::*/
 $routes->get('ayamblue', 'controllerresepmakanan::ayamblue');
+$routes->get('beef', 'controllerresepmakanan::beef');
+$routes->get('index', 'controllerresepmakanan::index');
+$routes->get('potato', 'controllerresepmakanan::potato');
 
 /*
  * --------------------------------------------------------------------

@@ -13,4 +13,19 @@ class controllerresepmakanan extends BaseController
     {
         return view('ayamblue');
     }
+
+    public function beef()
+    {
+        return view('beef');
+    }
+
+    public function index()
+    {
+        return view('index');
+    }
+
+    public function potato()
+    {
+        return view('potato');
+    }
 }

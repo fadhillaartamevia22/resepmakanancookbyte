@@ -1,3 +1,9 @@
+<?php
+
+namespace App\Models;
+
+use CodeIgniter\Model;
+
 interface LangkahMakanInterface
 {
     public function getLangkahMakanan($id);
